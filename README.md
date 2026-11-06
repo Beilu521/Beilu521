@@ -15,14 +15,6 @@
 
 > _"Time boils the rain, years weave flowers, with a joyful heart, pace through the mundane."_
 
-## [ TREASURE ]
-
-亲手养大的 Go 小家伙们：
-
-- **[Akira](https://github.com/Beilu521/Akira-reference)** —— 本地智能日志监控 agent，一只替我盯日志、有情况就汪汪叫的电子小狗
-- **[k8s-manager-golang](https://github.com/Beilu521/k8s-manager-golang)** —— 给 Kubernetes 拴上缰绳的小管理器，Gin 手作
-- **[myblogbygin](https://github.com/Beilu521/myblogbygin)** —— 用 Gin 搭的自留地小博客，慢慢更新，不着急
-
 ## [ INVENTORY ]
 
 **LANGUAGES**<br>
