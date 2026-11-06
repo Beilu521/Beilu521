@@ -17,25 +17,31 @@
 
 ## [ INVENTORY ]
 
-**LANGUAGES**<br>
+<div align="center">
+
+**LANGUAGES**
+
 ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![Shell](https://img.shields.io/badge/Shell-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![YAML](https://img.shields.io/badge/YAML-CB171E?style=for-the-badge&logo=yaml&logoColor=white)
 
-**TOOLS**<br>
+**TOOLS**
+
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Gin](https://img.shields.io/badge/Gin-00A1E0?style=for-the-badge&logo=gin&logoColor=white)
+
 ![kubectl](https://img.shields.io/badge/kubectl-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 ![WSL2](https://img.shields.io/badge/WSL2-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white)
 
-**INTERESTS**<br>
+**INTERESTS**
+
 ![Homelab](https://img.shields.io/badge/Homelab-5B5470?style=for-the-badge)
 ![SRE](https://img.shields.io/badge/SRE-5B5470?style=for-the-badge)
 ![%E5%B9%B3%E5%8F%B0%E5%B7%A5%E7%A8%8B](https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0%E5%B7%A5%E7%A8%8B-5B5470?style=for-the-badge)
@@ -43,3 +49,5 @@
 ![%E5%8F%AF%E8%A7%82%E6%B5%8B%E6%80%A7](https://img.shields.io/badge/%E5%8F%AF%E8%A7%82%E6%B5%8B%E6%80%A7-5B5470?style=for-the-badge)
 ![%E4%BA%91%E8%AE%A1%E7%AE%97](https://img.shields.io/badge/%E4%BA%91%E8%AE%A1%E7%AE%97-5B5470?style=for-the-badge)
 ![AI%20%E5%8D%8F%E4%BD%9C](https://img.shields.io/badge/AI%20%E5%8D%8F%E4%BD%9C-5B5470?style=for-the-badge)
+
+</div>
