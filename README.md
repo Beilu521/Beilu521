@@ -16,7 +16,7 @@
 
 > _"Time boils the rain, years weave flowers, with a joyful heart, pace through the mundane."_
 
-## [ HOW I CODE · 编程理念 ]
+## [ HOW I CODE ]
 
 - 能跑只是及格线，别人看得懂才算交付
 - 宁可自己造小轮子，也不背来路不明的大黑箱
@@ -43,10 +43,12 @@
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![kubectl](https://img.shields.io/badge/kubectl-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
 **DEV & DAILY**
 
 ![Gin](https://img.shields.io/badge/Gin-00A1E0?style=for-the-badge&logo=gin&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-0B5A9D?style=for-the-badge&logo=websockets&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![WSL2](https://img.shields.io/badge/WSL2-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 ![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white)
@@ -63,10 +65,13 @@
 
 </div>
 
-## [ ELSEWHERE · 在别处 ]
+## [ CONTACTS ]
 
 - **Telegram** · [@luyinxi](https://t.me/luyinxi) —— 小飞机，响应最快的一条线
 - **QQ** · [383008278](https://wpa.qq.com/msgrd?v=3&site=qq&menu=yes&uin=383008278) —— 老根据地，加好友时随手写句暗号就行
 - **X (Twitter)** · [@yinxiludev](https://x.com/yinxiludev) —— 以前的推特，偶尔冒泡
+
+## [ ELSEWHERE ]
+
 - **海燕文学社** · [haiyan.beilu.cyou](https://haiyan.beilu.cyou) —— 中国石油大学（华东）海燕文学社的社团站点，文学社的线上小窝
 - **OttoStack** · [ottostack.beilu.cyou](https://ottostack.beilu.cyou) —— 正在养的那只大玩具：学 K8s 顺手拼出来的 PaaS
