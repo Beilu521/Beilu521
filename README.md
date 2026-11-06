@@ -4,14 +4,12 @@
 
 ## [ PLAYER PROFILE ]
 
-**Beilu** —— Go 方向的运维开发学习者，正在从"会用 K8s"往"会写 K8s"爬坡。
+嗨，我是 **Beilu** —— 一只喜欢在终端里安家的企鹅饲养员。
 
-| QUEST LOG | |
-|---|---|
-| **MAIN QUEST** | **OttoStack** · 玩具版 PaaS —— 把 Deployment、Service、HPA、多租户配额亲手造一遍，学 K8s 不止于 kubectl |
-| **SKILL TREE** | Go 语法 → client-go → K8s 编程 → 平台工程 |
-| **DAILY RUN** | 源码链路走读 + 玩具实验逐个复写，做一份记一份 |
-| **NEXT STOP** | 平台工程 / SRE 实习 |
+- 白天教服务器乖乖干活，晚上给它们盖一套叫 **OttoStack** 的小房子
+- 相信小而美的东西：小到能一眼看懂，美到想一直用
+- 当前状态：`ONLINE`，正把喜欢的技术一件件拼成小玩具
+- 口头禅：`BUILD. SHIP. OPERATE. REPEAT.`
 
 > _"Time boils the rain, years weave flowers, with a joyful heart, pace through the mundane."_
 
