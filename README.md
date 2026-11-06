@@ -9,10 +9,36 @@
 - **OttoStack**：正在造的玩具版 PaaS，学 K8s 顺手把它写出来
 - 信条：`BUILD. SHIP. OPERATE. REPEAT.`
 
-> *"Time boils the rain, years weave flowers, with a joyful heart, pace through the mundane."*
+> _"Time boils the rain, years weave flowers, with a joyful heart, pace through the mundane."_
 
 ## [ INVENTORY ]
 
-**LANGUAGES**　`Go` `Shell` `C`
-**TOOLS**　`Linux` `Docker` `k3s` `Git` `Termux`
+**LANGUAGES**<br>
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Shell](https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=white)
+
+**TOOLS**<br>
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Termux](https://img.shields.io/badge/Termux-000000?style=flat-square&logo=gnu-bash&logoColor=white)
+
 **INTERESTS**　`Homelab` `SRE` `平台工程` `自动化`
+
+## [ STATS ]
+
+<div align="center">
+  <img height="158" src="https://github-readme-stats.vercel.app/api?username=Beilu521&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight"/>
+  <img height="158" src="https://streak-stats.demolab.com?user=Beilu521&hide_border=true&theme=tokyonight&locale=zh_CN"/>
+</div>
+
+## [ SNAKE ]
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Beilu521/Beilu521/output/github-snake-dark.svg"/>
+    <img src="https://raw.githubusercontent.com/Beilu521/Beilu521/output/github-snake.svg"/>
+  </picture>
+</div>
