@@ -65,6 +65,8 @@
 
 ## [ ELSEWHERE · 在别处 ]
 
+- **Telegram** · [@luyinxi](https://t.me/luyinxi) —— 小飞机，响应最快的一条线
+- **QQ** · [383008278](https://wpa.qq.com/msgrd?v=3&site=qq&menu=yes&uin=383008278) —— 老根据地，加好友时随手写句暗号就行
+- **X (Twitter)** · [@yinxiludev](https://x.com/yinxiludev) —— 以前的推特，偶尔冒泡
 - **海燕文学社** · [haiyan.beilu.cyou](https://haiyan.beilu.cyou) —— 中国石油大学（华东）海燕文学社的社团站点，文学社的线上小窝
 - **OttoStack** · [ottostack.beilu.cyou](https://ottostack.beilu.cyou) —— 正在养的那只大玩具：学 K8s 顺手拼出来的 PaaS
-- **其他据点** · QQ / Telegram / X 整理中——想找唠嗑的，先去 Issues 敲门
