@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="BEILU - ops player card">
+  <style>
+    .u-bob,.u-float,.u-twinkle,.u-hop,.u-type,.u-cur{transform-box:fill-box}
+    .u-bob{animation:u-bob 3s ease-in-out infinite}
+    @keyframes u-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+    .u-float{animation:u-float 3.4s ease-in-out infinite}
+    @keyframes u-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+    .u-twinkle{transform-origin:center;animation:u-twinkle 2.2s ease-in-out infinite}
+    @keyframes u-twinkle{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.22;transform:scale(.7)}}
+    .u-breathe{animation:u-breathe 2s ease-in-out infinite}
+    @keyframes u-breathe{0%,100%{opacity:1}50%{opacity:.3}}
+    .u-cursor{animation:u-blink 1.05s steps(1) infinite}
+    .u-led{animation:u-blink 1.4s steps(1) infinite}
+    @keyframes u-blink{0%,55%{opacity:1}56%,100%{opacity:.15}}
+    .u-type{transform-origin:right center;animation:u-type 7s steps(24,end) infinite}
+    @keyframes u-type{0%{transform:scaleX(1)}6%{transform:scaleX(1)}46%{transform:scaleX(0)}80%{transform:scaleX(0)}88%{transform:scaleX(1)}100%{transform:scaleX(1)}}
+    .u-cur{animation:u-curmove 7s steps(24,end) infinite, u-blinkc 1.05s steps(1) infinite}
+    @keyframes u-curmove{0%,6%{transform:translateX(0)}46%,80%{transform:translateX(312px)}88%,100%{transform:translateX(0)}}
+    @keyframes u-blinkc{0%,55%{opacity:1}56%,100%{opacity:.15}}
+    .u-hop{animation:u-hop 2.6s ease-in-out infinite}
+    @keyframes u-hop{0%,100%{transform:translateY(0)}14%{transform:translateY(-13px)}26%{transform:translateY(0)}34%{transform:translateY(-5px)}42%,100%{transform:translateY(0)}}
+    .u-dash{animation:u-dash 1.5s linear infinite}
+    @keyframes u-dash{to{stroke-dashoffset:-28}}
+  </style>
+
+  <!-- 底色 + 点阵 + 柔光团 -->
+  <rect width="1200" height="400" rx="28" fill="#FFF9F0"/>
+  <rect x="10" y="10" width="1180" height="380" rx="20" fill="url(#u-dots)"/>
+  <defs>
+    <pattern id="u-dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="#F0E7F8"/>
+    </pattern>
+  </defs>
+  <circle cx="1010" cy="205" r="150" fill="#FFE3EF" opacity=".38"/>
+  <circle cx="175" cy="345" r="115" fill="#D9F6EE" opacity=".4"/>
+
+  <!-- 外框 + 角标 -->
+  <rect x="10" y="10" width="1180" height="380" rx="20" fill="none" stroke="#F2D3E6" stroke-width="3"/>
+  <path d="M34,62 V38 q0,-8 8,-8 H66" fill="none" stroke="#C9BBFF" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M1166,338 V362 q0,8 -8,8 H1134" fill="none" stroke="#C9BBFF" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- 顶栏：状态灯 + PLAYER 01 // ONLINE -->
+  <circle class="u-breathe" cx="97" cy="54" r="8" fill="#58D68D"/>
+  <path d="M118,37h5v5h-5zM123,37h5v5h-5zM128,37h5v5h-5zM133,37h5v5h-5zM118,42h5v5h-5zM138,42h5v5h-5zM118,47h5v5h-5zM138,47h5v5h-5zM118,52h5v5h-5zM123,52h5v5h-5zM128,52h5v5h-5zM133,52h5v5h-5zM118,57h5v5h-5zM118,62h5v5h-5zM118,67h5v5h-5zM148,37h5v5h-5zM148,42h5v5h-5zM148,47h5v5h-5zM148,52h5v5h-5zM148,57h5v5h-5zM148,62h5v5h-5zM148,67h5v5h-5zM153,67h5v5h-5zM158,67h5v5h-5zM163,67h5v5h-5zM168,67h5v5h-5zM183,37h5v5h-5zM188,37h5v5h-5zM193,37h5v5h-5zM178,42h5v5h-5zM198,42h5v5h-5zM178,47h5v5h-5zM198,47h5v5h-5zM178,52h5v5h-5zM183,52h5v5h-5zM188,52h5v5h-5zM193,52h5v5h-5zM198,52h5v5h-5zM178,57h5v5h-5zM198,57h5v5h-5zM178,62h5v5h-5zM198,62h5v5h-5zM178,67h5v5h-5zM198,67h5v5h-5zM208,37h5v5h-5zM228,37h5v5h-5zM208,42h5v5h-5zM228,42h5v5h-5zM213,47h5v5h-5zM223,47h5v5h-5zM218,52h5v5h-5zM218,57h5v5h-5zM218,62h5v5h-5zM218,67h5v5h-5zM238,37h5v5h-5zM243,37h5v5h-5zM248,37h5v5h-5zM253,37h5v5h-5zM258,37h5v5h-5zM238,42h5v5h-5zM238,47h5v5h-5zM238,52h5v5h-5zM243,52h5v5h-5zM248,52h5v5h-5zM253,52h5v5h-5zM238,57h5v5h-5zM238,62h5v5h-5zM238,67h5v5h-5zM243,67h5v5h-5zM248,67h5v5h-5zM253,67h5v5h-5zM258,67h5v5h-5zM268,37h5v5h-5zM273,37h5v5h-5zM278,37h5v5h-5zM283,37h5v5h-5zM268,42h5v5h-5zM288,42h5v5h-5zM268,47h5v5h-5zM288,47h5v5h-5zM268,52h5v5h-5zM273,52h5v5h-5zM278,52h5v5h-5zM283,52h5v5h-5zM268,57h5v5h-5zM278,57h5v5h-5zM268,62h5v5h-5zM283,62h5v5h-5zM268,67h5v5h-5zM288,67h5v5h-5zM333,37h5v5h-5zM338,37h5v5h-5zM343,37h5v5h-5zM328,42h5v5h-5zM348,42h5v5h-5zM328,47h5v5h-5zM343,47h5v5h-5zM348,47h5v5h-5zM328,52h5v5h-5zM338,52h5v5h-5zM348,52h5v5h-5zM328,57h5v5h-5zM333,57h5v5h-5zM348,57h5v5h-5zM328,62h5v5h-5zM348,62h5v5h-5zM333,67h5v5h-5zM338,67h5v5h-5zM343,67h5v5h-5zM368,37h5v5h-5zM363,42h5v5h-5zM368,42h5v5h-5zM368,47h5v5h-5zM368,52h5v5h-5zM368,57h5v5h-5zM368,62h5v5h-5zM363,67h5v5h-5zM368,67h5v5h-5zM373,67h5v5h-5zM438,37h5v5h-5zM433,42h5v5h-5zM433,47h5v5h-5zM428,52h5v5h-5zM423,57h5v5h-5zM423,62h5v5h-5zM418,67h5v5h-5zM468,37h5v5h-5zM463,42h5v5h-5zM463,47h5v5h-5zM458,52h5v5h-5zM453,57h5v5h-5zM453,62h5v5h-5zM448,67h5v5h-5zM513,37h5v5h-5zM518,37h5v5h-5zM523,37h5v5h-5zM508,42h5v5h-5zM528,42h5v5h-5zM508,47h5v5h-5zM528,47h5v5h-5zM508,52h5v5h-5zM528,52h5v5h-5zM508,57h5v5h-5zM528,57h5v5h-5zM508,62h5v5h-5zM528,62h5v5h-5zM513,67h5v5h-5zM518,67h5v5h-5zM523,67h5v5h-5zM538,37h5v5h-5zM558,37h5v5h-5zM538,42h5v5h-5zM543,42h5v5h-5zM558,42h5v5h-5zM538,47h5v5h-5zM548,47h5v5h-5zM558,47h5v5h-5zM538,52h5v5h-5zM553,52h5v5h-5zM558,52h5v5h-5zM538,57h5v5h-5zM558,57h5v5h-5zM538,62h5v5h-5zM558,62h5v5h-5zM538,67h5v5h-5zM558,67h5v5h-5zM568,37h5v5h-5zM568,42h5v5h-5zM568,47h5v5h-5zM568,52h5v5h-5zM568,57h5v5h-5zM568,62h5v5h-5zM568,67h5v5h-5zM573,67h5v5h-5zM578,67h5v5h-5zM583,67h5v5h-5zM588,67h5v5h-5zM598,37h5v5h-5zM603,37h5v5h-5zM608,37h5v5h-5zM613,37h5v5h-5zM618,37h5v5h-5zM608,42h5v5h-5zM608,47h5v5h-5zM608,52h5v5h-5zM608,57h5v5h-5zM608,62h5v5h-5zM598,67h5v5h-5zM603,67h5v5h-5zM608,67h5v5h-5zM613,67h5v5h-5zM618,67h5v5h-5zM628,37h5v5h-5zM648,37h5v5h-5zM628,42h5v5h-5zM633,42h5v5h-5zM648,42h5v5h-5zM628,47h5v5h-5zM638,47h5v5h-5zM648,47h5v5h-5zM628,52h5v5h-5zM643,52h5v5h-5zM648,52h5v5h-5zM628,57h5v5h-5zM648,57h5v5h-5zM628,62h5v5h-5zM648,62h5v5h-5zM628,67h5v5h-5zM648,67h5v5h-5zM658,37h5v5h-5zM663,37h5v5h-5zM668,37h5v5h-5zM673,37h5v5h-5zM678,37h5v5h-5zM658,42h5v5h-5zM658,47h5v5h-5zM658,52h5v5h-5zM663,52h5v5h-5zM668,52h5v5h-5zM673,52h5v5h-5zM658,57h5v5h-5zM658,62h5v5h-5zM658,67h5v5h-5zM663,67h5v5h-5zM668,67h5v5h-5zM673,67h5v5h-5zM678,67h5v5h-5z" fill="#8A81A3"/>
+  <text x="1166" y="60" text-anchor="end" font-family="ui-monospace, Consolas, 'Courier New', monospace" font-size="14" fill="#8A81A3">@Beilu521</text>
+
+  <!-- 大标题 -->
+  <g class="u-bob" style="animation-delay:0.00s">
+      <path d="M97,89h20v20h-20zM117,89h20v20h-20zM137,89h20v20h-20zM157,89h20v20h-20zM97,109h20v20h-20zM177,109h20v20h-20zM97,129h20v20h-20zM177,129h20v20h-20zM97,149h20v20h-20zM117,149h20v20h-20zM137,149h20v20h-20zM157,149h20v20h-20zM97,169h20v20h-20zM177,169h20v20h-20zM97,189h20v20h-20zM177,189h20v20h-20zM97,209h20v20h-20zM117,209h20v20h-20zM137,209h20v20h-20zM157,209h20v20h-20z" fill="#EFE0F4"/>
+      <path d="M88,80h20v20h-20zM108,80h20v20h-20zM128,80h20v20h-20zM148,80h20v20h-20zM88,100h20v20h-20zM168,100h20v20h-20zM88,120h20v20h-20zM168,120h20v20h-20zM88,140h20v20h-20zM108,140h20v20h-20zM128,140h20v20h-20zM148,140h20v20h-20zM88,160h20v20h-20zM168,160h20v20h-20zM88,180h20v20h-20zM168,180h20v20h-20zM88,200h20v20h-20zM108,200h20v20h-20zM128,200h20v20h-20zM148,200h20v20h-20z" fill="#FF8FBD"/>
+    </g>
+  <g class="u-bob" style="animation-delay:-0.35s">
+      <path d="M217,89h20v20h-20zM237,89h20v20h-20zM257,89h20v20h-20zM277,89h20v20h-20zM297,89h20v20h-20zM217,109h20v20h-20zM217,129h20v20h-20zM217,149h20v20h-20zM237,149h20v20h-20zM257,149h20v20h-20zM277,149h20v20h-20zM217,169h20v20h-20zM217,189h20v20h-20zM217,209h20v20h-20zM237,209h20v20h-20zM257,209h20v20h-20zM277,209h20v20h-20zM297,209h20v20h-20z" fill="#EFE0F4"/>
+      <path d="M208,80h20v20h-20zM228,80h20v20h-20zM248,80h20v20h-20zM268,80h20v20h-20zM288,80h20v20h-20zM208,100h20v20h-20zM208,120h20v20h-20zM208,140h20v20h-20zM228,140h20v20h-20zM248,140h20v20h-20zM268,140h20v20h-20zM208,160h20v20h-20zM208,180h20v20h-20zM208,200h20v20h-20zM228,200h20v20h-20zM248,200h20v20h-20zM268,200h20v20h-20zM288,200h20v20h-20z" fill="#FFB84D"/>
+    </g>
+  <g class="u-bob" style="animation-delay:-0.70s">
+      <path d="M337,89h20v20h-20zM357,89h20v20h-20zM377,89h20v20h-20zM397,89h20v20h-20zM417,89h20v20h-20zM377,109h20v20h-20zM377,129h20v20h-20zM377,149h20v20h-20zM377,169h20v20h-20zM377,189h20v20h-20zM337,209h20v20h-20zM357,209h20v20h-20zM377,209h20v20h-20zM397,209h20v20h-20zM417,209h20v20h-20z" fill="#EFE0F4"/>
+      <path d="M328,80h20v20h-20zM348,80h20v20h-20zM368,80h20v20h-20zM388,80h20v20h-20zM408,80h20v20h-20zM368,100h20v20h-20zM368,120h20v20h-20zM368,140h20v20h-20zM368,160h20v20h-20zM368,180h20v20h-20zM328,200h20v20h-20zM348,200h20v20h-20zM368,200h20v20h-20zM388,200h20v20h-20zM408,200h20v20h-20z" fill="#5BD6C4"/>
+    </g>
+  <g class="u-bob" style="animation-delay:-1.05s">
+      <path d="M457,89h20v20h-20zM457,109h20v20h-20zM457,129h20v20h-20zM457,149h20v20h-20zM457,169h20v20h-20zM457,189h20v20h-20zM457,209h20v20h-20zM477,209h20v20h-20zM497,209h20v20h-20zM517,209h20v20h-20zM537,209h20v20h-20z" fill="#EFE0F4"/>
+      <path d="M448,80h20v20h-20zM448,100h20v20h-20zM448,120h20v20h-20zM448,140h20v20h-20zM448,160h20v20h-20zM448,180h20v20h-20zM448,200h20v20h-20zM468,200h20v20h-20zM488,200h20v20h-20zM508,200h20v20h-20zM528,200h20v20h-20z" fill="#B9A8FF"/>
+    </g>
+  <g class="u-bob" style="animation-delay:-1.40s">
+      <path d="M577,89h20v20h-20zM657,89h20v20h-20zM577,109h20v20h-20zM657,109h20v20h-20zM577,129h20v20h-20zM657,129h20v20h-20zM577,149h20v20h-20zM657,149h20v20h-20zM577,169h20v20h-20zM657,169h20v20h-20zM577,189h20v20h-20zM657,189h20v20h-20zM597,209h20v20h-20zM617,209h20v20h-20zM637,209h20v20h-20z" fill="#EFE0F4"/>
+      <path d="M568,80h20v20h-20zM648,80h20v20h-20zM568,100h20v20h-20zM648,100h20v20h-20zM568,120h20v20h-20zM648,120h20v20h-20zM568,140h20v20h-20zM648,140h20v20h-20zM568,160h20v20h-20zM648,160h20v20h-20zM568,180h20v20h-20zM648,180h20v20h-20zM588,200h20v20h-20zM608,200h20v20h-20zM628,200h20v20h-20z" fill="#7FB5FF"/>
+    </g>
+
+  <!-- 标语 + 波浪线 -->
+  <text x="90" y="262" font-family="ui-monospace, Consolas, 'Courier New', monospace" font-size="24" font-style="italic" fill="#6B6285">small · stable · cute</text>
+  <path class="u-dash" d="M90,274 q18,-9 36,0 t36,0 t36,0 t36,0 t36,0 t36,0 t36,0 t36,0" fill="none" stroke="#FFB7D9" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 7"/>
+
+  <!-- 技能芯片 -->
+  <g class="u-float" style="animation-delay:0.00s">
+      <rect x="88" y="286" width="96" height="46" rx="23" fill="#FFFFFF" stroke="#3ECFAF" stroke-width="2.5"/>
+      <circle cx="112" cy="309" r="5" fill="#3ECFAF"/>
+      <text x="128" y="315" font-family="ui-monospace, Consolas, 'Courier New', monospace" font-size="15" font-weight="bold" fill="#5B5470">GO</text>
+    </g>
+  <g class="u-float" style="animation-delay:-0.45s">
+      <rect x="202" y="286" width="190" height="46" rx="23" fill="#FFFFFF" stroke="#7B9BFF" stroke-width="2.5"/>
+      <circle cx="226" cy="309" r="5" fill="#7B9BFF"/>
+      <text x="242" y="315" font-family="ui-monospace, Consolas, 'Courier New', monospace" font-size="15" font-weight="bold" fill="#5B5470">KUBERNETES</text>
+    </g>
+  <g class="u-float" style="animation-delay:-0.90s">
+      <rect x="410" y="286" width="118" height="46" rx="23" fill="#FFFFFF" stroke="#FFB84D" stroke-width="2.5"/>
+      <circle cx="434" cy="309" r="5" fill="#FFB84D"/>
+      <text x="450" y="315" font-family="ui-monospace, Consolas, 'Courier New', monospace" font-size="15" font-weight="bold" fill="#5B5470">LINUX</text>
+    </g>
+  <g class="u-float" style="animation-delay:-1.35s">
+      <rect x="546" y="286" width="150" height="46" rx="23" fill="#FFFFFF" stroke="#FF8FBD" stroke-width="2.5"/>
+      <circle cx="570" cy="309" r="5" fill="#FF8FBD"/>
+      <text x="586" y="315" font-family="ui-monospace, Consolas, 'Courier New', monospace" font-size="15" font-weight="bold" fill="#5B5470">HOMELAB</text>
+    </g>
+
+  <!-- 终端行 + 打字机遮罩 + 光标 -->
+  <text x="90" y="380" font-family="ui-monospace, Consolas, 'Courier New', monospace" font-size="18" fill="#5B5470" textLength="312" lengthAdjust="spacingAndGlyphs">&gt; BUILD. SHIP. OPERATE. REPEAT.</text>
+  <rect class="u-type" x="86" y="362" width="322" height="24" fill="#FFF9F0"/>
+  <rect class="u-cur" x="90" y="363" width="11" height="21" fill="#FF8FBD"/>
+
+  <!-- 吉祥物：像素企鹅 + 小服务器 -->
+  <g class="u-hop"><path d="M961,170h8v8h-8zM969,170h8v8h-8zM977,170h8v8h-8zM985,170h8v8h-8zM993,170h8v8h-8zM1001,170h8v8h-8zM953,178h8v8h-8zM961,178h8v8h-8zM969,178h8v8h-8zM977,178h8v8h-8zM985,178h8v8h-8zM993,178h8v8h-8zM1001,178h8v8h-8zM1009,178h8v8h-8zM945,186h8v8h-8zM953,186h8v8h-8zM1009,186h8v8h-8zM1017,186h8v8h-8zM945,194h8v8h-8zM1017,194h8v8h-8zM945,202h8v8h-8zM1017,202h8v8h-8zM945,210h8v8h-8zM1017,210h8v8h-8zM945,218h8v8h-8zM1017,218h8v8h-8zM945,226h8v8h-8zM1017,226h8v8h-8zM937,234h8v8h-8zM1025,234h8v8h-8zM937,242h8v8h-8zM1025,242h8v8h-8zM945,250h8v8h-8zM1017,250h8v8h-8zM945,258h8v8h-8zM1017,258h8v8h-8zM953,266h8v8h-8zM1009,266h8v8h-8zM953,274h8v8h-8zM961,274h8v8h-8zM969,274h8v8h-8zM977,274h8v8h-8zM985,274h8v8h-8zM993,274h8v8h-8zM1001,274h8v8h-8zM1009,274h8v8h-8z" fill="#4A4458"/><path d="M961,186h8v8h-8zM969,186h8v8h-8zM977,186h8v8h-8zM985,186h8v8h-8zM993,186h8v8h-8zM1001,186h8v8h-8zM953,194h8v8h-8zM961,194h8v8h-8zM985,194h8v8h-8zM993,194h8v8h-8zM1009,194h8v8h-8zM953,202h8v8h-8zM961,202h8v8h-8zM985,202h8v8h-8zM993,202h8v8h-8zM1009,202h8v8h-8zM953,210h8v8h-8zM961,210h8v8h-8zM969,210h8v8h-8zM977,210h8v8h-8zM985,210h8v8h-8zM993,210h8v8h-8zM1001,210h8v8h-8zM1009,210h8v8h-8zM961,218h8v8h-8zM969,218h8v8h-8zM993,218h8v8h-8zM1001,218h8v8h-8zM953,226h8v8h-8zM961,226h8v8h-8zM969,226h8v8h-8zM993,226h8v8h-8zM1001,226h8v8h-8zM1009,226h8v8h-8zM945,234h8v8h-8zM953,234h8v8h-8zM961,234h8v8h-8zM969,234h8v8h-8zM977,234h8v8h-8zM985,234h8v8h-8zM993,234h8v8h-8zM1001,234h8v8h-8zM1009,234h8v8h-8zM1017,234h8v8h-8zM945,242h8v8h-8zM953,242h8v8h-8zM961,242h8v8h-8zM969,242h8v8h-8zM977,242h8v8h-8zM985,242h8v8h-8zM993,242h8v8h-8zM1001,242h8v8h-8zM1009,242h8v8h-8zM1017,242h8v8h-8zM953,250h8v8h-8zM961,250h8v8h-8zM969,250h8v8h-8zM977,250h8v8h-8zM985,250h8v8h-8zM993,250h8v8h-8zM1001,250h8v8h-8zM1009,250h8v8h-8zM953,258h8v8h-8zM961,258h8v8h-8zM969,258h8v8h-8zM977,258h8v8h-8zM985,258h8v8h-8zM993,258h8v8h-8zM1001,258h8v8h-8zM1009,258h8v8h-8zM961,266h8v8h-8zM969,266h8v8h-8zM977,266h8v8h-8zM985,266h8v8h-8zM993,266h8v8h-8zM1001,266h8v8h-8z" fill="#FFFFFF"/><path d="M969,194h8v8h-8zM977,194h8v8h-8zM1001,194h8v8h-8zM969,202h8v8h-8zM977,202h8v8h-8zM1001,202h8v8h-8z" fill="#4A4458"/><path d="M953,218h8v8h-8zM1009,218h8v8h-8z" fill="#FFB7D9"/><path d="M977,218h8v8h-8zM985,218h8v8h-8zM977,226h8v8h-8zM985,226h8v8h-8zM953,282h8v8h-8zM961,282h8v8h-8zM1001,282h8v8h-8zM1009,282h8v8h-8z" fill="#FF9F5A"/></g>
+  <g>
+    <rect x="915" y="290" width="140" height="64" rx="12" fill="#CFC3FF" stroke="#A99BF0" stroke-width="3"/>
+    <path d="M1026,306h16 M1026,318h16 M1026,330h16" stroke="#A99BF0" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="937" cy="308" r="5" fill="#58D68D"/>
+    <circle class="u-led" cx="957" cy="308" r="5" fill="#FFD88A"/>
+    <circle cx="977" cy="308" r="5" fill="#FF8FBD"/>
+    <rect x="929" y="324" width="64" height="18" rx="5" fill="#FFFFFF" opacity=".75"/>
+    <text x="937" y="337" font-family="ui-monospace, Consolas, 'Courier New', monospace" font-size="11" fill="#8A81A3">node-01</text>
+    <text x="985" y="384" font-family="ui-monospace, Consolas, 'Courier New', monospace" font-size="13" fill="#8A81A3">online · uptime 99.99%</text>
+  </g>
+
+  <!-- 点缀 -->
+  <path class="u-twinkle" style="animation-delay:-0.2s" fill="#FFD88A"
+    d="M140,141L142.88,147.12L149,150L142.88,152.88L140,159L137.12,152.88L131,150L137.12,147.12Z"/>
+  <path class="u-twinkle" style="animation-delay:-1.1s" fill="#B9A8FF"
+    d="M330,89L332.24,93.76L337,96L332.24,98.24L330,103L327.76,98.24L323,96L327.76,93.76Z"/>
+  <path class="u-twinkle" style="animation-delay:-0.6s" fill="#FFB7D9"
+    d="M640,62L642.56,67.44L648,70L642.56,72.56L640,78L637.44,72.56L632,70L637.44,67.44Z"/>
+  <path class="u-twinkle" style="animation-delay:-1.6s" fill="#5BD6C4"
+    d="M836,122L837.92,126.08L842,128L837.92,129.92L836,134L834.08,129.92L830,128L834.08,126.08Z"/>
+  <path class="u-twinkle" style="animation-delay:-0.9s" fill="#FFD88A"
+    d="M1152,75L1154.88,81.12L1161,84L1154.88,86.88L1152,93L1149.12,86.88L1143,84L1149.12,81.12Z"/>
+  <path class="u-twinkle" style="animation-delay:-1.4s" fill="#B9A8FF"
+    d="M64,230L65.92,234.08L70,236L65.92,237.92L64,242L62.08,237.92L58,236L62.08,234.08Z"/>
+  <path class="u-twinkle" style="animation-delay:-0.4s" fill="#FFB7D9"
+    d="M716,219L717.6,222.4L721,224L717.6,225.6L716,229L714.4,225.6L711,224L714.4,222.4Z"/>
+  <path class="u-twinkle" style="animation-delay:-1.9s" fill="#FF8FBD"
+    d="M1092,152 c-3,-6 -12,-6 -13,1 c-1,6 8,12 13,15 c5,-3 14,-9 13,-15 c-1,-7 -10,-7 -13,-1 Z"/>
+</svg>
