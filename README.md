@@ -37,12 +37,3 @@
 ![SRE](https://img.shields.io/badge/SRE-5B5470?style=for-the-badge)
 ![%E5%B9%B3%E5%8F%B0%E5%B7%A5%E7%A8%8B](https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0%E5%B7%A5%E7%A8%8B-5B5470?style=for-the-badge)
 ![%E8%87%AA%E5%8A%A8%E5%8C%96](https://img.shields.io/badge/%E8%87%AA%E5%8A%A8%E5%8C%96-5B5470?style=for-the-badge)
-
-## [ SNAKE ]
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Beilu521/Beilu521/output/github-snake-dark.svg"/>
-    <img src="https://raw.githubusercontent.com/Beilu521/Beilu521/output/github-snake.svg"/>
-  </picture>
-</div>
