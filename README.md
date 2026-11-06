@@ -90,7 +90,7 @@
 
 - **Telegram** · [@luyinxi](https://t.me/luyinxi) —— 小飞机，响应最快的一条线
 - **QQ** · [383008278](https://wpa.qq.com/msgrd?v=3&site=qq&menu=yes&uin=383008278) —— 老根据地，加好友时随手写句暗号就行
-- **X (Twitter)** · [@yinxiludev](https://x.com/yinxiludev) —— 以前的推特，偶尔冒泡
+- **X (Twitter)** · [@beiludev](https://x.com/beiludev) —— 以前的推特，偶尔冒泡
 
 ## [ ELSEWHERE ]
 
