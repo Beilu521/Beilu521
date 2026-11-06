@@ -27,13 +27,6 @@
 
 **INTERESTS**　`Homelab` `SRE` `平台工程` `自动化`
 
-## [ STATS ]
-
-<div align="center">
-  <img height="158" src="https://github-readme-stats.vercel.app/api?username=Beilu521&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&theme=tokyonight"/>
-  <img height="158" src="https://streak-stats.demolab.com?user=Beilu521&hide_border=true&theme=tokyonight&locale=zh_CN"/>
-</div>
-
 ## [ SNAKE ]
 
 <div align="center">
