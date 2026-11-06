@@ -22,6 +22,19 @@
     @keyframes u-sway{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
     .u-spout{transform-origin:center bottom;animation:u-spout 3.5s ease-in-out infinite}
     @keyframes u-spout{0%,100%{opacity:.5;transform:scaleY(.75)}50%{opacity:1;transform:scaleY(1.15)}}
+    .u-dropA,.u-dropL,.u-dropR{transform-box:fill-box}
+    .u-dropA{animation:u-dropA 2.4s ease-out infinite}
+    @keyframes u-dropA{0%{opacity:0;transform:translate(0,10px)}25%{opacity:1}100%{opacity:0;transform:translate(0,-10px)}}
+    .u-dropL{animation:u-dropL 2.6s ease-out infinite;animation-delay:-.9s}
+    @keyframes u-dropL{0%{opacity:0;transform:translate(6px,4px)}30%{opacity:1}100%{opacity:0;transform:translate(-8px,-12px)}}
+    .u-dropR{animation:u-dropR 2.6s ease-out infinite;animation-delay:-1.8s}
+    @keyframes u-dropR{0%{opacity:0;transform:translate(-6px,4px)}30%{opacity:1}100%{opacity:0;transform:translate(8px,-12px)}}
+    .u-grass{transform-origin:center bottom;transform-box:fill-box;animation:u-grass 3s ease-in-out infinite}
+    @keyframes u-grass{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(7deg)}}
+    .u-water{transform-box:fill-box;transform-origin:center;animation:u-water 4s ease-in-out infinite}
+    @keyframes u-water{0%,100%{transform:scaleX(1)}50%{transform:scaleX(1.05)}}
+    .u-wave{transform-box:fill-box;animation:u-wave 3s ease-in-out infinite}
+    @keyframes u-wave{0%,100%{transform:translateX(-3px);opacity:.35}50%{transform:translateX(3px);opacity:.85}}
     .u-cloud{animation:u-cloud 80s linear infinite}
     @keyframes u-cloud{from{transform:translateX(-160px)}to{transform:translateX(1360px)}}
     .u-shoot{opacity:0;animation:u-shoot 7s linear infinite}
@@ -125,14 +138,25 @@
     <circle cx="984" cy="299" r="4" fill="#FF8FBD"/>
   </g>
 
-  <!-- 小鹿：站草地，轻轻摇 -->
+  <!-- 小鹿：站草地，草叶随风摆 -->
   <ellipse cx="850" cy="292" rx="54" ry="8" fill="#CDEFD8"/>
+  <g>
+    <path class="u-grass" style="animation-delay:-.3s" d="M806,289 q-2,-7 -4,-11" stroke="#6FCB9A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path class="u-grass" style="animation-delay:-1.1s" d="M822,288 q-1,-8 0,-12" stroke="#6FCB9A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path class="u-grass" style="animation-delay:-1.9s" d="M878,288 q1,-8 0,-12" stroke="#6FCB9A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <path class="u-grass" style="animation-delay:-.7s" d="M894,289 q2,-7 4,-10" stroke="#6FCB9A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
   <g class="u-sway"><path d="M822,176h7v7h-7zM836,176h7v7h-7zM857,176h7v7h-7zM871,176h7v7h-7zM829,183h7v7h-7zM864,183h7v7h-7z" fill="#C89B6A"/><path d="M815,190h7v7h-7zM822,190h7v7h-7zM829,190h7v7h-7zM836,190h7v7h-7zM843,190h7v7h-7zM850,190h7v7h-7zM857,190h7v7h-7zM864,190h7v7h-7zM871,190h7v7h-7zM878,190h7v7h-7zM815,197h7v7h-7zM878,197h7v7h-7zM815,204h7v7h-7zM878,204h7v7h-7zM815,211h7v7h-7zM878,211h7v7h-7zM815,218h7v7h-7zM878,218h7v7h-7zM815,225h7v7h-7zM878,225h7v7h-7zM815,232h7v7h-7zM822,232h7v7h-7zM871,232h7v7h-7zM878,232h7v7h-7zM829,239h7v7h-7zM836,239h7v7h-7zM843,239h7v7h-7zM850,239h7v7h-7zM857,239h7v7h-7zM864,239h7v7h-7zM822,246h7v7h-7zM871,246h7v7h-7zM822,253h7v7h-7zM871,253h7v7h-7zM822,260h7v7h-7zM871,260h7v7h-7zM829,267h7v7h-7zM836,267h7v7h-7zM843,267h7v7h-7zM850,267h7v7h-7zM857,267h7v7h-7zM864,267h7v7h-7zM829,274h7v7h-7zM836,274h7v7h-7zM857,274h7v7h-7zM864,274h7v7h-7zM829,281h7v7h-7zM836,281h7v7h-7zM857,281h7v7h-7zM864,281h7v7h-7z" fill="#8A5A38"/><path d="M801,197h7v7h-7zM808,197h7v7h-7zM885,197h7v7h-7zM892,197h7v7h-7z" fill="#D9A876"/><path d="M822,197h7v7h-7zM829,197h7v7h-7zM836,197h7v7h-7zM843,197h7v7h-7zM850,197h7v7h-7zM857,197h7v7h-7zM864,197h7v7h-7zM871,197h7v7h-7zM836,204h7v7h-7zM843,204h7v7h-7zM850,204h7v7h-7zM857,204h7v7h-7zM836,211h7v7h-7zM843,211h7v7h-7zM850,211h7v7h-7zM857,211h7v7h-7zM822,218h7v7h-7zM829,218h7v7h-7zM836,218h7v7h-7zM857,218h7v7h-7zM864,218h7v7h-7zM871,218h7v7h-7zM822,225h7v7h-7zM836,225h7v7h-7zM843,225h7v7h-7zM850,225h7v7h-7zM857,225h7v7h-7zM871,225h7v7h-7zM829,232h7v7h-7zM836,232h7v7h-7zM843,232h7v7h-7zM850,232h7v7h-7zM857,232h7v7h-7zM864,232h7v7h-7z" fill="#FFF4E3"/><path d="M822,204h7v7h-7zM829,204h7v7h-7zM864,204h7v7h-7zM871,204h7v7h-7zM822,211h7v7h-7zM864,211h7v7h-7zM843,218h7v7h-7zM850,218h7v7h-7z" fill="#4A4458"/><path d="M829,211h7v7h-7zM871,211h7v7h-7zM843,246h7v7h-7zM850,246h7v7h-7zM836,253h7v7h-7zM857,253h7v7h-7zM843,260h7v7h-7zM850,260h7v7h-7z" fill="#FFF6E8"/><path d="M829,225h7v7h-7zM864,225h7v7h-7z" fill="#FFB7D9"/><path d="M829,246h7v7h-7zM836,246h7v7h-7zM857,246h7v7h-7zM864,246h7v7h-7zM829,253h7v7h-7zM843,253h7v7h-7zM850,253h7v7h-7zM864,253h7v7h-7zM829,260h7v7h-7zM836,260h7v7h-7zM857,260h7v7h-7zM864,260h7v7h-7z" fill="#EBBE92"/></g>
 
-  <!-- 小海豚：小水池，水花自己喷 -->
-  <ellipse cx="1120" cy="292" rx="46" ry="7" fill="#BDE3F8"/>
+  <!-- 小海豚：小水池波光，水花分层喷散 -->
+  <ellipse class="u-water" cx="1120" cy="292" rx="46" ry="7" fill="#BDE3F8"/>
+  <path class="u-wave" style="animation-delay:-.4s" d="M1096,290 q7,-4 14,0 t14,0" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" opacity=".7"/>
+  <path class="u-wave" style="animation-delay:-1.6s" d="M1104,295 q7,-4 14,0" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" opacity=".6"/>
   <g class="u-float" style="animation-delay:-3.1s"><path d="M1113,211h7v7h-7zM1120,211h7v7h-7zM1106,218h7v7h-7zM1113,218h7v7h-7zM1120,218h7v7h-7zM1127,218h7v7h-7zM1085,232h7v7h-7zM1092,232h7v7h-7zM1099,232h7v7h-7zM1106,232h7v7h-7zM1113,232h7v7h-7zM1120,232h7v7h-7zM1127,232h7v7h-7zM1134,232h7v7h-7zM1141,232h7v7h-7zM1148,232h7v7h-7zM1085,239h7v7h-7zM1106,239h7v7h-7zM1113,239h7v7h-7zM1120,239h7v7h-7zM1127,239h7v7h-7zM1155,239h7v7h-7zM1085,246h7v7h-7zM1106,246h7v7h-7zM1113,246h7v7h-7zM1120,246h7v7h-7zM1127,246h7v7h-7zM1148,246h7v7h-7zM1085,253h7v7h-7zM1092,253h7v7h-7zM1099,253h7v7h-7zM1134,253h7v7h-7zM1141,253h7v7h-7zM1148,253h7v7h-7zM1085,260h7v7h-7zM1099,260h7v7h-7zM1106,260h7v7h-7zM1113,260h7v7h-7zM1120,260h7v7h-7zM1127,260h7v7h-7zM1134,260h7v7h-7zM1148,260h7v7h-7zM1092,267h7v7h-7zM1099,267h7v7h-7zM1134,267h7v7h-7zM1141,267h7v7h-7zM1099,274h7v7h-7zM1106,274h7v7h-7zM1127,274h7v7h-7zM1134,274h7v7h-7z" fill="#7FB2E5"/><path d="M1092,225h7v7h-7zM1099,225h7v7h-7zM1106,225h7v7h-7zM1113,225h7v7h-7zM1120,225h7v7h-7zM1127,225h7v7h-7zM1134,225h7v7h-7zM1141,225h7v7h-7zM1078,232h7v7h-7zM1155,232h7v7h-7zM1078,239h7v7h-7zM1148,239h7v7h-7zM1078,246h7v7h-7zM1155,246h7v7h-7zM1078,253h7v7h-7zM1155,253h7v7h-7zM1078,260h7v7h-7zM1155,260h7v7h-7zM1078,267h7v7h-7zM1085,267h7v7h-7zM1148,267h7v7h-7zM1155,267h7v7h-7zM1085,274h7v7h-7zM1092,274h7v7h-7zM1141,274h7v7h-7zM1148,274h7v7h-7zM1078,281h7v7h-7zM1085,281h7v7h-7zM1092,281h7v7h-7zM1099,281h7v7h-7zM1134,281h7v7h-7zM1141,281h7v7h-7zM1148,281h7v7h-7zM1155,281h7v7h-7z" fill="#4A4458"/><path d="M1092,239h7v7h-7zM1099,239h7v7h-7zM1134,239h7v7h-7zM1141,239h7v7h-7zM1092,246h7v7h-7zM1141,246h7v7h-7z" fill="#4A4458"/><path d="M1099,246h7v7h-7zM1134,246h7v7h-7zM1106,267h7v7h-7zM1113,267h7v7h-7zM1120,267h7v7h-7zM1127,267h7v7h-7zM1113,274h7v7h-7zM1120,274h7v7h-7z" fill="#D9EAF7"/><path d="M1106,253h7v7h-7zM1113,253h7v7h-7zM1120,253h7v7h-7zM1127,253h7v7h-7zM1092,260h7v7h-7zM1141,260h7v7h-7z" fill="#FFB7D9"/></g>
-  <g class="u-spout"><path d="M1113,187h7v7h-7zM1120,187h7v7h-7zM1085,194h7v7h-7zM1113,194h7v7h-7zM1120,194h7v7h-7zM1148,194h7v7h-7zM1113,201h7v7h-7zM1120,201h7v7h-7z" fill="#A8D8F0"/></g>
+  <g class="u-spout"><path d="M1113,186h7v7h-7zM1120,186h7v7h-7zM1113,193h7v7h-7zM1120,193h7v7h-7zM1113,200h7v7h-7zM1120,200h7v7h-7z" fill="#A8D8F0"/></g>
+  <g class="u-dropA"><path d="M1116,170h7v7h-7z" fill="#A8D8F0"/></g>
+  <g class="u-dropL"><path d="M1085,191h7v7h-7z" fill="#A8D8F0"/></g>
+  <g class="u-dropR"><path d="M1141,191h7v7h-7z" fill="#A8D8F0"/></g>
 
   <text x="850" y="384" text-anchor="middle" font-family="ui-monospace, Consolas, 'Courier New', monospace" font-size="11" fill="#8A81A3">lu-deer</text>
   <text x="985" y="384" text-anchor="middle" font-family="ui-monospace, Consolas, 'Courier New', monospace" font-size="11" fill="#8A81A3">node-01 · online</text>
