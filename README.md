@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/banner.svg" width="100%" alt="BEILU · PLAYER 01"/>
+  <img src="./assets/banner.svg?v=3" width="100%" alt="BEILU · PLAYER 01"/>
 </div>
 
 ## [ PLAYER PROFILE ]
